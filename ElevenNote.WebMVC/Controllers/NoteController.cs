@@ -1,4 +1,5 @@
-﻿using ElevenNote.Models;
+﻿using ElevenNote.Data;
+using ElevenNote.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,8 @@ namespace ElevenNote.WebMVC.Controllers
     [Authorize]
     public class NoteController : Controller
     {
+        private ApplicationDbContext _db = new ApplicationDbContext();
+
         // GET: Note
         public ActionResult Index()
         {
@@ -21,6 +24,16 @@ namespace ElevenNote.WebMVC.Controllers
         public ActionResult Create()
         {
             return View();
+        }
+        //Post: /Note
+        [HttpPost, ActionName("Create")]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(Note note)
+        {
+            if (ModelState.IsValid)
+            {
+
+            }
         }
     }
 }
