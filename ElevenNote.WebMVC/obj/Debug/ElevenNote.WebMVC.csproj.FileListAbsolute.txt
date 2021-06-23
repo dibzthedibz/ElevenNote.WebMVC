@@ -115,3 +115,9 @@ S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.WebMVC\ob
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.WebMVC\obj\Debug\ElevenNote.WebMVC.csproj.CopyComplete
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.WebMVC\obj\Debug\ElevenNote.WebMVC.dll
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.WebMVC\obj\Debug\ElevenNote.WebMVC.pdb
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.WebMVC\bin\System.Net.Http.Formatting.dll
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.WebMVC\bin\System.Web.Http.dll
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.WebMVC\bin\System.Web.Http.WebHost.dll
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.WebMVC\bin\System.Net.Http.Formatting.xml
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.WebMVC\bin\System.Web.Http.xml
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.WebMVC\bin\System.Web.Http.WebHost.xml
