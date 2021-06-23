@@ -7,6 +7,13 @@ S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\EntityFramework.SqlServer.dll
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.Web.Infrastructure.dll
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\System.Web.Helpers.dll
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\System.Web.Mvc.dll
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\System.Web.Razor.dll
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\System.Web.WebPages.dll
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\System.Web.WebPages.Razor.dll
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Data.pdb
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Data.dll.config
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Models.pdb
@@ -15,6 +22,12 @@ S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\EntityFramework.SqlServer.xml
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\System.Web.Helpers.xml
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\System.Web.Mvc.xml
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\System.Web.Razor.xml
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\System.Web.WebPages.xml
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\bin\Debug\System.Web.WebPages.Razor.xml
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\obj\Debug\ElevenNote.Services.csproj.AssemblyReference.cache
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\obj\Debug\ElevenNote.Services.csproj.CoreCompileInputs.cache
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Services\obj\Debug\ElevenNote.Services.csproj.CopyComplete

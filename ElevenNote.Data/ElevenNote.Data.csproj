@@ -68,6 +68,10 @@
     <Compile Include="Migrations\202106231825441_CategoryAddedForeignKeyAddedToNote.Designer.cs">
       <DependentUpon>202106231825441_CategoryAddedForeignKeyAddedToNote.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106231839291_DbSetCategoriesMigratingInFinally.cs" />
+    <Compile Include="Migrations\202106231839291_DbSetCategoriesMigratingInFinally.Designer.cs">
+      <DependentUpon>202106231839291_DbSetCategoriesMigratingInFinally.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -85,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106231825441_CategoryAddedForeignKeyAddedToNote.resx">
       <DependentUpon>202106231825441_CategoryAddedForeignKeyAddedToNote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106231839291_DbSetCategoriesMigratingInFinally.resx">
+      <DependentUpon>202106231839291_DbSetCategoriesMigratingInFinally.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

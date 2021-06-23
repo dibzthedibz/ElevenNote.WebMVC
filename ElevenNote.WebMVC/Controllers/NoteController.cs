@@ -24,14 +24,14 @@ namespace ElevenNote.WebMVC.Controllers
             return View(model);
         }
 
-        //Get /Note
+        //Get /Note/Create
         public ActionResult Create()
         {
-            var catList = _db.Notes.ToList();
+            var catList = _db.Categories.ToList();
             ViewBag.CategoryId = new SelectList(catList, "CategoryId", "Title");
             return View();
         }
-        //Post: /Note
+        //Post: /Note/Create
         [HttpPost, ActionName("Create")]
         [ValidateAntiForgeryToken]
         public ActionResult Create(NoteCreate note)
@@ -59,13 +59,16 @@ namespace ElevenNote.WebMVC.Controllers
         }
         public ActionResult Edit(int id)
         {
+            var catList = _db.Categories.ToList();
+            ViewBag.CategoryId = new SelectList(catList, "CategoryId", "Title");
             var service = CreateNoteService();
             var detail = service.GetNoteById(id);
             var model = new NoteEdit
             {
                 NoteId = detail.NoteId,
                 Title = detail.Title,
-                Content = detail.Content
+                Content = detail.Content,
+                CategoryId = detail.CategoryId
             };
             return View(model);
         }

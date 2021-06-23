@@ -54,6 +54,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CatFolder\CatCreate.cs" />
+    <Compile Include="CatFolder\CatListItem.cs" />
     <Compile Include="NoteFolder\NoteCreate.cs" />
     <Compile Include="NoteFolder\NoteDetail.cs" />
     <Compile Include="NoteFolder\NoteEdit.cs" />
@@ -70,6 +72,5 @@
       <Name>ElevenNote.Data</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
