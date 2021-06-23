@@ -14,3 +14,6 @@ S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Data\obj\
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.csproj.CopyComplete
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.dll
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.pdb
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.InitialCreate.resources
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.csproj.GenerateResource.cache
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.NoteAdded.resources
