@@ -17,3 +17,11 @@ S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Models\ob
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Models\obj\Debug\ElevenNote.Models.csproj.CopyComplete
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Models\obj\Debug\ElevenNote.Models.dll
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Models\obj\Debug\ElevenNote.Models.pdb
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Models\bin\Debug\Newtonsoft.Json.dll
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Models\bin\Debug\System.Net.Http.Formatting.dll
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Models\bin\Debug\System.Web.Http.dll
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Models\bin\Debug\System.Web.Http.WebHost.dll
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Models\bin\Debug\Newtonsoft.Json.xml
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Models\bin\Debug\System.Net.Http.Formatting.xml
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Models\bin\Debug\System.Web.Http.xml
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Models\bin\Debug\System.Web.Http.WebHost.xml

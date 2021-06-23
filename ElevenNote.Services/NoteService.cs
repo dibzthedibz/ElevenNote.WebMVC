@@ -72,7 +72,7 @@ namespace ElevenNote.Services
                 };
             }
         }
-        public bool Updatenote(NoteEdit note)
+        public bool UpdateNote(NoteEdit note)
         {
             using (var ctx = new ApplicationDbContext())
             {
@@ -84,6 +84,7 @@ namespace ElevenNote.Services
                 entity.Content = note.Content;
                 entity.CategoryId = note.CategoryId;
                 entity.ModifiedUtc = DateTimeOffset.UtcNow;
+                entity.IsStarred = note.IsStarred;
 
                 return ctx.SaveChanges() == 1;
             }

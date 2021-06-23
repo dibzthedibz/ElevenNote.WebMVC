@@ -20,3 +20,11 @@ S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Data\obj\
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.dll
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.pdb
 S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.IsStarredAdded.resources
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Data\bin\Debug\Newtonsoft.Json.dll
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Data\bin\Debug\System.Net.Http.Formatting.dll
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Data\bin\Debug\System.Web.Http.dll
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Data\bin\Debug\System.Web.Http.WebHost.dll
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Data\bin\Debug\Newtonsoft.Json.xml
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Data\bin\Debug\System.Net.Http.Formatting.xml
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Data\bin\Debug\System.Web.Http.xml
+S:\Bootcamp Work Folder Boom\RedBadge\ElevenNote\ElevenNote\ElevenNote.Data\bin\Debug\System.Web.Http.WebHost.xml

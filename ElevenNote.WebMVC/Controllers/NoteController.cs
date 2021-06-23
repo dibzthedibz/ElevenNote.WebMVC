@@ -85,7 +85,7 @@ namespace ElevenNote.WebMVC.Controllers
             }
 
             var service = CreateNoteService();
-            if (service.Updatenote(note))
+            if (service.UpdateNote(note))
             {
                 TempData["SaveResult"] = "Note Successfully Updated.";
                 return RedirectToAction("Index");
