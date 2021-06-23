@@ -18,8 +18,7 @@ namespace ElevenNote.WebMVC.Controllers
         // GET: Note
         public ActionResult Index()
         {
-            var userId = Guid.Parse(User.Identity.GetUserId());
-            var service = new NoteService(userId);
+            var service = CreateNoteService();
             var model = service.GetNotes();
 
             return View(model);
@@ -35,16 +34,25 @@ namespace ElevenNote.WebMVC.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(NoteCreate note)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return View(note);
             }
+            var service = CreateNoteService();
+            if (service.CreateNote(note))
+            {
+                TempData["SaveResult"] = "Note was successfully created.";
+                return RedirectToAction("Index");
+            };
+            ModelState.AddModelError("", "Note could not be created.");
+            return View(note);
+        }
+
+        private NoteService CreateNoteService()
+        {
             var userId = Guid.Parse(User.Identity.GetUserId());
             var service = new NoteService(userId);
-
-            service.CreateNote(note);
-
-            return RedirectToAction("Index");
+            return service;
         }
     }
 }
