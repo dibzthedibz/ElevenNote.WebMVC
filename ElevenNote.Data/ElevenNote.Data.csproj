@@ -72,6 +72,10 @@
     <Compile Include="Migrations\202106231839291_DbSetCategoriesMigratingInFinally.Designer.cs">
       <DependentUpon>202106231839291_DbSetCategoriesMigratingInFinally.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106232241080_IsStarredAdded.cs" />
+    <Compile Include="Migrations\202106232241080_IsStarredAdded.Designer.cs">
+      <DependentUpon>202106232241080_IsStarredAdded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -92,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106231839291_DbSetCategoriesMigratingInFinally.resx">
       <DependentUpon>202106231839291_DbSetCategoriesMigratingInFinally.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106232241080_IsStarredAdded.resx">
+      <DependentUpon>202106232241080_IsStarredAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
