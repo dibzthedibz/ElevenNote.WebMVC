@@ -27,6 +27,8 @@ namespace ElevenNote.WebMVC.Controllers
         //Get /Note
         public ActionResult Create()
         {
+            var catList = _db.Notes.ToList();
+            ViewBag.CategoryId = new SelectList(catList, "CategoryId", "Title");
             return View();
         }
         //Post: /Note
@@ -44,6 +46,7 @@ namespace ElevenNote.WebMVC.Controllers
                 TempData["SaveResult"] = "Note was successfully created.";
                 return RedirectToAction("Index");
             };
+
             ModelState.AddModelError("", "Note could not be created.");
             return View(note);
         }
@@ -99,7 +102,7 @@ namespace ElevenNote.WebMVC.Controllers
         //Post: Product/Delete/{id}
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id)
+        public ActionResult DeletePost(int id)
         {
             var service = CreateNoteService();
 

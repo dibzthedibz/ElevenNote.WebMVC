@@ -17,6 +17,6 @@ namespace ElevenNote.Models
         [MinLength(120, ErrorMessage = "Must type out at LEAST a few sentences for the content. 120 chars minimum.")]
         [MaxLength(500, ErrorMessage = "Try being a bit more concise. A note should not be more than 500 characters.")]
         public string Content { get; set; }
-
+        public int? CategoryId { get; set; }
     }
 }
