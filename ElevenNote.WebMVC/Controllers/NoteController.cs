@@ -47,20 +47,52 @@ namespace ElevenNote.WebMVC.Controllers
             ModelState.AddModelError("", "Note could not be created.");
             return View(note);
         }
+        public ActionResult Details(int id)
+        {
+            var svc = CreateNoteService();
+            var model = svc.GetNoteById(id);
+
+            return View(model);
+        }
+        public ActionResult Edit(int id)
+        {
+            var service = CreateNoteService();
+            var detail = service.GetNoteById(id);
+            var model = new NoteEdit
+            {
+                NoteId = detail.NoteId,
+                Title = detail.Title,
+                Content = detail.Content
+            };
+            return View(model);
+        }
+        [HttpPost, ActionName("Edit")]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(int id, NoteEdit note)
+        {
+            if (!ModelState.IsValid) return View(note);
+
+            if (note.NoteId != id)
+            {
+                ModelState.AddModelError("", "Id Mismatch");
+                return View(note);
+            }
+
+            var service = CreateNoteService();
+            if (service.Updatenote(note))
+            {
+                TempData["SaveResult"] = "Note Successfully Updated.";
+                return RedirectToAction("Index");
+            }
+
+            return View(note);
+        }
 
         private NoteService CreateNoteService()
         {
             var userId = Guid.Parse(User.Identity.GetUserId());
             var service = new NoteService(userId);
             return service;
-        }
-
-        public ActionResult Details (int id)
-        {
-            var svc = CreateNoteService();
-            var model = svc.GetNoteById(id);
-
-            return View(model);
         }
     }
 }
